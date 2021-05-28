@@ -1,0 +1,53 @@
+
+body{
+    margin: 0px;
+    text-align: center;
+    background-image: url(../EVGENEY/555.jpg);
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: cover;
+
+}
+#header>div{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 2em;
+    width: 100%;
+    background-color:rgb(255, 187, 0);
+    color:papayawhip;
+
+
+}
+.obed{
+    grid-column: 1/3;
+    
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(100px,1fr));
+
+    column-gap: 5px;
+    
+    width: 100%;
+    height: 100%;
+    
+
+}
+.container>div img{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px 0px 0px
+;
+}
+.tebal{
+    background-color: rgb(255, 166, 0);
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    
+}
+
